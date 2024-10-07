@@ -8,10 +8,10 @@ def  main():
 
         if guess_1 < number:
             print('Ваше число меньше того, что загадано.')
-        if guess_1 > number:
+        elif guess_1 > number:
             print('ваше число больше того, что загадано.')
 
-        if guess_1 == number:
+        elif guess_1 == number:
             break
 
 
